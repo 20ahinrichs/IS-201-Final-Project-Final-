@@ -14,12 +14,12 @@ body{
     text-align: center;
     color:#305E5A;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .firstphead{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 550;
     text-transform: uppercase;
     line-height: 35px;
@@ -35,9 +35,9 @@ body{
 .pheading{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     font-style:italic;
-    text-transform: uppercase;
+    text-transform: lowercase;
     line-height: 30px;
     word-spacing: 1px;
     letter-spacing: 1.5px;
@@ -45,14 +45,14 @@ body{
     color:#305E5A;
     padding-left: 300px;
     padding-right: 300px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .heading {
     padding-top: 75px;
     padding-bottom: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 100px;
+    font-size: 150px;
     font-weight: 600;
     color: #305E5A;
     letter-spacing: 2px;
@@ -66,7 +66,7 @@ body{
 
 .aboutp{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     font-style:italic
 }
 
@@ -101,7 +101,7 @@ body{
     padding: 0.75rem 0;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .nav-link:hover{
@@ -146,25 +146,30 @@ body{
 }
 
 .custommarginlist{
-    padding-top: 20px;
-    padding-right:150px;
-    padding-left:150px;
+    padding-top: 10px;
 }
 
 .customli{
     list-style: none;
     font-weight: 600;
     font-size: 20px;
+    font-style: normal;
 }
 
 .customul{
     list-style: none;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .custombold{
     font-weight: 600;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.customunderline{
+    text-decoration: underline;
 }
 
 .center{
@@ -172,4 +177,10 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.tableaublock{
+    display: inline-block;
+    place-content: center;
+
 }
